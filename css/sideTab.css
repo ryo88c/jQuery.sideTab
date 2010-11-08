@@ -1,0 +1,44 @@
+/*** Side tabs */
+dl.sideTab{
+    margin:0 0 20px;
+    position:relative;
+}
+dl.sideTab dt{
+    padding:10px 4px 10px 8px;
+    position:absolute;
+    top:0;
+    right:0;
+    width:150px;
+    background-color:#EEE;
+    color:#999;
+    z-index:1;
+    cursor:pointer;
+    border-radius:0 6px 6px 0;
+    -moz-border-radius:0 6px 6px 0;
+}
+dl.sideTab dt.hover{
+    background-color:#34beed;
+    color:#FFF;
+}
+dl.sideTab dt.current{
+    background-color:#DDD;
+    color:#111;
+    z-index:3;
+}
+dl.sideTab dt.shadow{
+    z-index: 1;
+    -webkit-box-shadow: 0 0 5px #777;
+    -moz-box-shadow: 0 0 5px #777;
+}
+dl.sideTab dd{
+    margin:0 162px 0 0;
+    padding:4px 8px;
+    position:relative;
+    background-color:#FFF;
+    border:4px solid #DDD;
+    z-index:2;
+    border-radius:6px 0 6px 6px;
+    -moz-border-radius:6px 0 6px 6px;
+    -webkit-box-shadow:0 0 5px #777;
+    -moz-box-shadow:0 0 5px #777;
+}
